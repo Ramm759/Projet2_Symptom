@@ -24,12 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e54c116f-2740-4aee-af8f-73484428bfd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Read/ReadSymptomDataFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Read/ReadSymptomDataFromFile.java" afterDir="false" />
-    </list>
+    <list default="true" id="e54c116f-2740-4aee-af8f-73484428bfd6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +32,14 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="AnalyticsCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -102,26 +106,35 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="560" y="251" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593882387110">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="560" y="251" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.900@0.0.1600.900" timestamp="1593882387110" />
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1593884666542">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1593938598055">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1593884666542" />
-    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1593884666542">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1593938598055" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1593938598054">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1593884666542" />
-    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1593884666541">
+    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1593938598054" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1593938598053">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1593884666541" />
-    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1593884666542">
+    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1593938598053" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1593938598054">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1593884666542" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1593938598054" />
+    <state x="301" y="94" key="SettingsEditor" timestamp="1593936547295">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="301" y="94" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1593936547295" />
   </component>
 </project>

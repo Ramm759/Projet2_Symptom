@@ -35,12 +35,14 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 			try {
 				// Ouverture du fichier symptom.txt
 				BufferedReader reader = new BufferedReader (new FileReader(filepath));
+
 				// Lecture premiere ligne
 				String line = reader.readLine();
 				
 				while (line != null) {
 					// On ajoute la ligne en cours à la liste
 					result.add(line);
+
 					// Ligne suivante
 					line = reader.readLine();
 				}
