@@ -1,1 +1,1 @@
-Projet2_Symptom
+Sample project for OpenClassroom's fundamentals of Java
