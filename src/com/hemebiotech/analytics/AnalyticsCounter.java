@@ -1,6 +1,8 @@
 package com.hemebiotech.analytics;
 import com.hemebiotech.analytics.Count.CountSymptomFromArrayList;
 import com.hemebiotech.analytics.Read.ReadSymptomDataFromFile;
+import com.hemebiotech.analytics.Sort.SortSymptomFromHashMap;
+
 import java.io.FileWriter;
 import java.util.*;
 
@@ -19,9 +21,9 @@ public class AnalyticsCounter {
         Map<String, Integer> hmap = counter.CountSymptoms();
 
         // Tri par ordre alphabétique
-        List<String> symptoms = new ArrayList<>(hmap.keySet());
-        Collections.sort(symptoms);
-
+        SortSymptomFromHashMap sort = new SortSymptomFromHashMap(hmap);
+        List<String> symptoms = sort.SortSymptoms();
+        
         for (String symptom : symptoms) {
 
             // Ecriture dans result.out ( format : nom symptome : nombre occurence
