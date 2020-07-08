@@ -2,15 +2,13 @@ package com.hemebiotech.analytics;
 import com.hemebiotech.analytics.Count.CountSymptomFromArrayList;
 import com.hemebiotech.analytics.Read.ReadSymptomDataFromFile;
 import com.hemebiotech.analytics.Sort.SortSymptomFromHashMap;
+import com.hemebiotech.analytics.Write.WriteToFile;
 
 import java.io.FileWriter;
 import java.util.*;
 
 public class AnalyticsCounter {
     public static void main(String args[]) throws Exception {
-
-        // Création du fichier de sortie "result.out"
-        FileWriter writer = new FileWriter("result.out");
 
         // Lecture fichier .txt
         ReadSymptomDataFromFile reader = new ReadSymptomDataFromFile("symptoms.txt");
@@ -23,14 +21,11 @@ public class AnalyticsCounter {
         // Tri par ordre alphabétique
         SortSymptomFromHashMap sort = new SortSymptomFromHashMap(hmap);
         List<String> symptoms = sort.SortSymptoms();
+
+        // Ecriture du fichier result.out
+        WriteToFile writer = new WriteToFile( symptoms, hmap);
+        writer.WriteSymptoms();
         
-        for (String symptom : symptoms) {
 
-            // Ecriture dans result.out ( format : nom symptome : nombre occurence
-            writer.write(symptom + " : " + hmap.get(symptom) + "\n");
-
-        }
-        // fermeture fichier result.out
-        writer.close();
-    }
+}
 }

@@ -9,7 +9,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Feature" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
@@ -20,11 +20,31 @@
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e54c116f-2740-4aee-af8f-73484428bfd6" name="Default Changelist" comment="" />
+    <list default="true" id="7db2bfd3-8fef-4dbd-915d-42c4790fb698" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projet2_Symptom.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet 2/META-INF/Projet 2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,8 +67,10 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1eEB0QvlIhxRDETqcVVyJYn5FJQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1eM35YUIba1MMQbtdcsDq3S7ceZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,15 +81,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunManager">
     <configuration name="AnalyticsCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounter" />
-      <module name="Projet 2" />
+      <module name="Projet2_Symptom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hemebiotech.analytics.Read.*" />
+          <option name="PATTERN" value="com.hemebiotech.analytics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,13 +111,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e54c116f-2740-4aee-af8f-73484428bfd6" name="Default Changelist" comment="" />
-      <created>1593876648916</created>
+      <changelist id="7db2bfd3-8fef-4dbd-915d-42c4790fb698" name="Default Changelist" comment="" />
+      <created>1594117451544</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1593876648916</updated>
+      <updated>1594117451544</updated>
+      <workItem from="1594133912160" duration="142000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -106,35 +135,42 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="251" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593882387110">
+    <state x="685" y="313" key="#Notifications" timestamp="1594117793504">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="560" y="251" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.900@0.0.1600.900" timestamp="1593882387110" />
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1593944733744">
+    <state x="685" y="313" key="#Notifications/0.0.1600.900@0.0.1600.900" timestamp="1594117793504" />
+    <state x="547" y="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594117669738">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1593944733744" />
-    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1593944733744">
+    <state x="547" y="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.900@0.0.1600.900" timestamp="1594117669738" />
+    <state x="579" y="191" key="FileChooserDialogImpl" timestamp="1594139687838">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1593944733744" />
-    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1593944733743">
+    <state x="579" y="191" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1594139687838" />
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1594213771209">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1593944733743" />
-    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1593944733744">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1594213771209" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1594213771209">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1593944733744" />
-    <state x="301" y="94" key="SettingsEditor" timestamp="1593936547295">
+    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1594213771209" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1594213771209">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="301" y="94" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1593936547295" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1594213771209" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1594213771209">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1594213771209" />
+    <state x="380" y="193" key="IDE.errors.dialog" timestamp="1594117810588">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="380" y="193" key="IDE.errors.dialog/0.0.1600.900@0.0.1600.900" timestamp="1594117810588" />
+    <state x="182" y="70" key="new project wizard" timestamp="1594139716894">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="182" y="70" key="new project wizard/0.0.1600.900@0.0.1600.900" timestamp="1594139716894" />
   </component>
 </project>
