@@ -15,6 +15,7 @@ public class WriteToFile implements ISymptomWrite{
         this.hmap = hmap;
     }
 
+    @Override
     public void WriteSymptoms() {
         try {
             // Création du fichier de sortie "result.out"
