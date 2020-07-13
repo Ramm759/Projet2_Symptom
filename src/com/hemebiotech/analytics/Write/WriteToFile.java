@@ -5,18 +5,21 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-public class WriteToFile implements ISymptomWrite{
-    private List<String> symptoms;
-    private Map<String, Integer> hmap;
+public class WriteToFile implements ISymptomWrite {
+
+    /**
+     * @param List<String> symptoms
+     */
+
+    private String filePath;
 
     // Constructeur
-    public WriteToFile(List<String> symptoms, Map<String, Integer> hmap) {
-        this.symptoms = symptoms;
-        this.hmap = hmap;
+    public WriteToFile(String filePath) {
+        this.filePath = filePath;
     }
 
     @Override
-    public void WriteSymptoms() {
+    public void WriteSymptoms(List<String> symptoms, Map<String, Integer> hmap) {
         try {
             // Création du fichier de sortie "result.out"
             FileWriter writer = new FileWriter("result.out");

@@ -1,6 +1,7 @@
 package com.hemebiotech.analytics.Sort;
 
 import java.util.List;
+import java.util.Map;
 
 public interface ISymptomSort {
     /**
@@ -9,5 +10,5 @@ public interface ISymptomSort {
      * @return List trié
      */
 
-    List<String> SortSymptoms();
+    List<String> SortSymptoms(Map<String, Integer> hmap);
 }

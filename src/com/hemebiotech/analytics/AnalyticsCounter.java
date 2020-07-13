@@ -1,36 +1,40 @@
 package com.hemebiotech.analytics;
-import com.hemebiotech.analytics.Count.CountSymptomFromArrayList;
+
 import com.hemebiotech.analytics.Count.ISymptomCount;
 import com.hemebiotech.analytics.Read.ISymptomReader;
-import com.hemebiotech.analytics.Read.ReadSymptomDataFromFile;
 import com.hemebiotech.analytics.Sort.ISymptomSort;
-import com.hemebiotech.analytics.Sort.SortSymptomFromHashMap;
 import com.hemebiotech.analytics.Write.ISymptomWrite;
-import com.hemebiotech.analytics.Write.WriteToFile;
 
-import java.io.FileWriter;
-import java.util.*;
+import java.util.List;
+import java.util.Map;
 
 public class AnalyticsCounter {
-    public static void main(String args[]) {
 
+    // On rend obligatoire la création des 4 interfaces avant d'utiliser l'objet
+    private final ISymptomReader reader;
+    private final ISymptomCount counter;
+    private final ISymptomSort sorter;
+    private final ISymptomWrite writer;
+
+    public AnalyticsCounter(ISymptomReader reader, ISymptomCount counter, ISymptomSort sorter, ISymptomWrite writer) {
+        this.reader = reader;
+        this.counter = counter;
+        this.sorter = sorter;
+        this.writer = writer;
+    }
+
+    public void execute() throws Exception {
         // Lecture fichier .txt
-
-        ISymptomReader reader = new ReadSymptomDataFromFile("symptoms.txt");
         List<String> result = reader.GetSymptoms();
 
         // Comptage des symptomes
-        ISymptomCount counter = new CountSymptomFromArrayList(result);
-        Map<String, Integer> hmap = counter.CountSymptoms();
+        Map<String, Integer> hmap = counter.CountSymptoms(result);
 
         // Tri par ordre alphabétique
-        ISymptomSort sort = new SortSymptomFromHashMap(hmap);
-        List<String> symptoms = sort.SortSymptoms();
+        List<String> symptoms = sorter.SortSymptoms(hmap);
 
         // Ecriture du fichier result.out
-        ISymptomWrite writer = new WriteToFile(symptoms, hmap);
-        writer.WriteSymptoms();
-        
+        writer.WriteSymptoms(symptoms, hmap);
 
-}
+    }
 }
