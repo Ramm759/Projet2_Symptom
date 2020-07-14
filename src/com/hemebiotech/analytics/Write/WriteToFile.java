@@ -19,7 +19,7 @@ public class WriteToFile implements ISymptomWrite {
     }
 
     @Override
-    public void WriteSymptoms(List<String> symptoms, Map<String, Integer> hmap) {
+    public void writeSymptoms(List<String> symptoms, Map<String, Integer> hmap) {
         try {
             // Création du fichier de sortie "result.out"
             FileWriter writer = new FileWriter("result.out");

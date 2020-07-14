@@ -25,16 +25,16 @@ public class AnalyticsCounter {
 
     public void execute() throws Exception {
         // Lecture fichier .txt
-        List<String> result = reader.GetSymptoms();
+        List<String> result = reader.getSymptoms();
 
         // Comptage des symptomes
-        Map<String, Integer> hmap = counter.CountSymptoms(result);
+        Map<String, Integer> hmap = counter.countSymptoms(result);
 
         // Tri par ordre alphabétique
-        List<String> symptoms = sorter.SortSymptoms(hmap);
+        List<String> symptoms = sorter.sortSymptoms(hmap);
 
         // Ecriture du fichier result.out
-        writer.WriteSymptoms(symptoms, hmap);
+        writer.writeSymptoms(symptoms, hmap);
 
     }
 }

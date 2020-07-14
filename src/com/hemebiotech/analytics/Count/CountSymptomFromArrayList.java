@@ -13,7 +13,7 @@ public class CountSymptomFromArrayList implements ISymptomCount {
      *                          retourne un HashMap hmap ( clé : String (nom) et valeur : Integer (nb occurences)
      */
 
-    public Map<String, Integer> CountSymptoms(List<String> result) {
+    public Map<String, Integer> countSymptoms(List<String> result) {
 
         // Création d'un HashMap ( clé : String (nom) et valeur : Integer (nb occurences)
         Map<String, Integer> hmap = new HashMap<String, Integer>();

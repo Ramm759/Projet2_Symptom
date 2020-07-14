@@ -10,5 +10,5 @@ public interface ISymptomCount {
      * @return a Map ( clé : String (nom) et valeur : Integer (nb occurences)
      */
 
-    Map<String, Integer> CountSymptoms(List<String> result);
+    Map<String, Integer> countSymptoms(List<String> result);
 }

@@ -10,5 +10,5 @@ public interface ISymptomSort {
      * @return List trié
      */
 
-    List<String> SortSymptoms(Map<String, Integer> hmap);
+    List<String> sortSymptoms(Map<String, Integer> hmap);
 }

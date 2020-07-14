@@ -9,7 +9,7 @@ public class SortSymptomFromHashMap implements ISymptomSort{
      *               retourne List<String> symptoms
      */
 
-    public List<String> SortSymptoms(Map<String, Integer> hmap) {
+    public List<String> sortSymptoms(Map<String, Integer> hmap) {
         // Tri par ordre alphabétique
         List<String> symptoms = new ArrayList<>(hmap.keySet());
         Collections.sort(symptoms);

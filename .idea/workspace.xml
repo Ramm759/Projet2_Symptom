@@ -35,6 +35,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/AnalyticsCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/AnalyticsCounter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/Count/CountSymptomFromArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/Count/CountSymptomFromArrayList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/Count/ISymptomCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/Count/ISymptomCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/Read/ISymptomReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/Read/ISymptomReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/Read/ReadSymptomDataFromFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/Read/ReadSymptomDataFromFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/Sort/ISymptomSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/Sort/ISymptomSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/Sort/SortSymptomFromHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet2_Symptom/com/hemebiotech/analytics/Sort/SortSymptomFromHashMap.class" afterDir="false" />
@@ -44,6 +45,7 @@
       <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Count/CountSymptomFromArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Count/CountSymptomFromArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Count/ISymptomCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Count/ISymptomCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Read/ISymptomReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Read/ISymptomReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Read/ReadSymptomDataFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Read/ReadSymptomDataFromFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Sort/ISymptomSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Sort/ISymptomSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Sort/SortSymptomFromHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/Sort/SortSymptomFromHashMap.java" afterDir="false" />
@@ -89,6 +91,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -136,6 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594117451544</updated>
       <workItem from="1594133912160" duration="142000" />
+      <workItem from="1594658819168" duration="318000" />
     </task>
     <servers />
   </component>
@@ -167,26 +173,30 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="579" y="191" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1594139687838" />
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1594311380082">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1594658782438">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1594311380082" />
-    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1594311380082">
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1594658782438" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1594658782438">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1594311380082" />
-    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1594311380082">
+    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1594658782438" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1594658782438">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1594311380082" />
-    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1594311380082">
+    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1594658782438" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1594658782438">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1594311380082" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1594658782438" />
     <state x="380" y="193" key="IDE.errors.dialog" timestamp="1594117810588">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="380" y="193" key="IDE.errors.dialog/0.0.1600.900@0.0.1600.900" timestamp="1594117810588" />
+    <state x="280" y="24" key="SettingsEditor" timestamp="1594658867868">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="280" y="24" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1594658867868" />
     <state x="182" y="70" key="new project wizard" timestamp="1594139716894">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
